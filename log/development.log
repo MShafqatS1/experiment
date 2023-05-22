@@ -22,3 +22,254 @@ Migrating to CreateUsers (20230522095905)
   [1m[36mActiveRecord::InternalMetadata Create (0.1ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2023-05-22 09:59:14.671056"], ["updated_at", "2023-05-22 09:59:14.671056"]]
   [1m[36mTRANSACTION (3.4ms)[0m  [1m[36mcommit transaction[0m
   [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20230522095905)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE "users"[0m
+  [1m[36mActiveRecord::SchemaMigration Delete All (0.1ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = ?[0m  [["version", "20230522095905"]]
+  [1m[36mTRANSACTION (2.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20230522095905)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar NOT NULL, "email" varchar NOT NULL, "address" varchar NOT NULL, "dob" datetime(6) NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20230522095905"]]
+  [1m[36mTRANSACTION (3.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2023-05-22 17:47:27 +0530
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/shafqat/.rvm/gems/ruby-2.7.5/gems/railties-7.0.4.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/shafqat/.rvm/gems/ruby-2.7.5/gems/railties-7.0.4.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.3ms | Allocations: 660)
+Completed 200 OK in 9ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 5400)
+
+
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 17:47:28 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 17:47:59 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/routes" for ::1 at 2023-05-22 17:48:33 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/routes"):
+  
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 17:48:34 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/users" for ::1 at 2023-05-22 17:48:43 +0530
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:6
+  Rendered users/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1066)
+  Rendered layout layouts/application.html.erb (Duration: 118.2ms | Allocations: 102660)
+Completed 200 OK in 121ms (Views: 119.0ms | ActiveRecord: 0.2ms | Allocations: 103967)
+
+
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 17:48:45 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 17:48:47 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 17:49:17 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/routes" for ::1 at 2023-05-22 17:53:23 +0530
+  
+NoMethodError (undefined method `GET' for #<ActionDispatch::Routing::Mapper:0x00007f5e64acb8a8>
+Did you mean?  gets
+               gem):
+  
+config/routes.rb:8:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 17:53:25 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/routes" for ::1 at 2023-05-22 17:53:31 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/routes"):
+  
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 17:53:32 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/routes" for ::1 at 2023-05-22 17:53:33 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/routes"):
+  
+Started GET "/routes" for ::1 at 2023-05-22 17:53:34 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/routes"):
+  
+Started GET "/routes" for ::1 at 2023-05-22 17:53:34 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/routes"):
+  
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 17:53:36 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/rails/info/routes?path=abo" for ::1 at 2023-05-22 17:53:43 +0530
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"abo"}
+Completed 200 OK in 1ms (Views: 0.1ms | Allocations: 1913)
+
+
+Started GET "/rails/info/routes?path=about" for ::1 at 2023-05-22 17:53:43 +0530
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"about"}
+Completed 200 OK in 1ms (Views: 0.1ms | Allocations: 706)
+
+
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 17:54:14 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/routes" for ::1 at 2023-05-22 17:55:18 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/routes"):
+  
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 17:55:19 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/rails/info/routes?path=abou" for ::1 at 2023-05-22 17:55:20 +0530
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"abou"}
+Completed 200 OK in 7ms (Views: 0.5ms | Allocations: 1858)
+
+
+Started GET "/rails/info/routes?path=about" for ::1 at 2023-05-22 17:55:21 +0530
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"about"}
+Completed 200 OK in 1ms (Views: 0.1ms | Allocations: 745)
+
+
+Started GET "/about" for ::1 at 2023-05-22 17:55:32 +0530
+Processing by PagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (Duration: 0.2ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 14213)
+Completed 200 OK in 9ms (Views: 8.7ms | Allocations: 15094)
+
+
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 17:55:34 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 17:56:05 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/contact" for ::1 at 2023-05-22 17:57:07 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/contact"):
+  
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 17:57:09 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 17:57:39 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/contact" for ::1 at 2023-05-22 17:57:43 +0530
+Processing by PagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (Duration: 0.2ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 14200)
+Completed 200 OK in 8ms (Views: 7.9ms | Allocations: 15045)
+
+
+Started GET "/contact" for ::1 at 2023-05-22 17:57:44 +0530
+Processing by PagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 2351)
+Completed 200 OK in 2ms (Views: 2.2ms | Allocations: 2597)
+
+
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 17:57:46 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/contact_us" for ::1 at 2023-05-22 17:57:47 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/contact_us"):
+  
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 17:57:49 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/contact_us" for ::1 at 2023-05-22 17:57:49 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/contact_us"):
+  
+Started GET "/contact_us" for ::1 at 2023-05-22 17:57:50 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/contact_us"):
+  
+Started GET "/contact_us" for ::1 at 2023-05-22 17:57:50 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/contact_us"):
+  
+Started GET "/contact_us" for ::1 at 2023-05-22 17:57:50 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/contact_us"):
+  
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 17:57:52 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/contact" for ::1 at 2023-05-22 17:58:02 +0530
+Processing by PagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | Allocations: 2371)
+Completed 200 OK in 3ms (Views: 2.4ms | Allocations: 2617)
+
+
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 17:58:04 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 17:58:34 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/" for ::1 at 2023-05-22 18:00:12 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 14180)
+Completed 200 OK in 9ms (Views: 9.0ms | Allocations: 15070)
+
+
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 18:00:14 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 18:00:45 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
