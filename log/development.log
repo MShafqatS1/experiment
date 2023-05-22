@@ -273,3 +273,830 @@ Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 18:00:45 +0530
   
 ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
   
+Started GET "/" for ::1 at 2023-05-22 18:02:38 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 107)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 14201)
+Completed 200 OK in 9ms (Views: 8.6ms | Allocations: 15092)
+
+
+Started GET "/" for ::1 at 2023-05-22 18:02:39 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | Allocations: 2355)
+Completed 200 OK in 3ms (Views: 2.2ms | Allocations: 2600)
+
+
+Started GET "/" for ::1 at 2023-05-22 18:02:39 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 2351)
+Completed 200 OK in 11ms (Views: 9.9ms | Allocations: 2595)
+
+
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 18:02:40 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 18:02:41 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/routes" for ::1 at 2023-05-22 18:02:43 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/routes"):
+  
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 18:02:44 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 18:03:14 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 18:15:08 +0530
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/" for ::1 at 2023-05-22 18:15:12 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 113)
+  Rendered layout layouts/application.html.erb (Duration: 127.6ms | Allocations: 105271)
+Completed 200 OK in 133ms (Views: 128.8ms | ActiveRecord: 0.0ms | Allocations: 108623)
+
+
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 18:15:14 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/user" for ::1 at 2023-05-22 18:15:20 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/user"):
+  
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 18:15:21 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/users" for ::1 at 2023-05-22 18:15:24 +0530
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:6
+  Rendered users/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1031)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 3234)
+Completed 200 OK in 5ms (Views: 3.2ms | ActiveRecord: 0.1ms | Allocations: 4408)
+
+
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 18:15:25 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/users/new" for ::1 at 2023-05-22 18:15:27 +0530
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 4.4ms | Allocations: 3347)
+  Rendered users/new.html.erb within layouts/application (Duration: 4.8ms | Allocations: 3648)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 5847)
+Completed 200 OK in 13ms (Views: 6.7ms | ActiveRecord: 0.3ms | Allocations: 22766)
+
+
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 18:15:31 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 18:16:01 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/" for ::1 at 2023-05-22 18:16:30 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 116)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 2735)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms | Allocations: 3620)
+
+
+Started GET "/" for ::1 at 2023-05-22 18:16:30 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 2368)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 2614)
+
+
+Started GET "/" for ::1 at 2023-05-22 18:16:30 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 2375)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 2619)
+
+
+Started GET "/" for ::1 at 2023-05-22 18:16:31 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 2375)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.0ms | Allocations: 2619)
+
+
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 18:16:32 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 18:17:03 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/" for ::1 at 2023-05-22 18:17:46 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 3700)
+Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 3945)
+
+
+Started GET "/" for ::1 at 2023-05-22 18:17:47 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 2358)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 2603)
+
+
+Started GET "/" for ::1 at 2023-05-22 18:17:47 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 2363)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 2607)
+
+
+Started GET "/" for ::1 at 2023-05-22 18:17:47 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 2359)
+Completed 200 OK in 3ms (Views: 3.1ms | ActiveRecord: 0.0ms | Allocations: 2603)
+
+
+Started GET "/" for ::1 at 2023-05-22 18:17:47 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 2375)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms | Allocations: 2619)
+
+
+Started GET "/" for ::1 at 2023-05-22 18:17:47 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 2361)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 2605)
+
+
+Started GET "/" for ::1 at 2023-05-22 18:17:48 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 2377)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 2621)
+
+
+Started GET "/" for ::1 at 2023-05-22 18:17:48 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 2373)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 2617)
+
+
+Started GET "/" for ::1 at 2023-05-22 18:17:48 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | Allocations: 2367)
+Completed 200 OK in 2ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 2611)
+
+
+Started GET "/" for ::1 at 2023-05-22 18:17:48 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 2377)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 2621)
+
+
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 18:17:50 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/" for ::1 at 2023-05-22 18:17:50 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 2395)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 2640)
+
+
+Started GET "/" for ::1 at 2023-05-22 18:17:50 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 2359)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 2603)
+
+
+Started GET "/" for ::1 at 2023-05-22 18:17:50 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | Allocations: 2373)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 2617)
+
+
+Started GET "/" for ::1 at 2023-05-22 18:17:51 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 2359)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 2603)
+
+
+Started GET "/" for ::1 at 2023-05-22 18:17:51 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 2365)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 2609)
+
+
+Started GET "/" for ::1 at 2023-05-22 18:17:51 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 2369)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 2614)
+
+
+Started GET "/" for ::1 at 2023-05-22 18:17:51 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 2377)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 2621)
+
+
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 18:17:53 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 18:18:23 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/" for ::1 at 2023-05-22 18:27:44 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 2511)
+Completed 500 Internal Server Error in 2ms (Allocations: 2736)
+
+
+  
+ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/views/layouts/application.html.erb:9
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 18:27:46 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 18:28:17 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/" for ::1 at 2023-05-22 18:29:34 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 113)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | Allocations: 2787)
+Completed 500 Internal Server Error in 3ms (Allocations: 3647)
+
+
+  
+ActionView::Template::Error (The asset "application.bootsrap.scss.css" is not present in the asset pipeline.
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application.bootsrap.scss", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/views/layouts/application.html.erb:9
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 18:29:36 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/" for ::1 at 2023-05-22 18:29:51 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 2449)
+Completed 500 Internal Server Error in 2ms (Allocations: 2670)
+
+
+  
+ActionView::Template::Error (The asset "application.bootsrap.scss.css" is not present in the asset pipeline.
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application.bootsrap.scss", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2023-05-22 18:29:52 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 2449)
+Completed 500 Internal Server Error in 2ms (Allocations: 2669)
+
+
+  
+ActionView::Template::Error (The asset "application.bootsrap.scss.css" is not present in the asset pipeline.
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application.bootsrap.scss", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2023-05-22 18:29:52 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 2447)
+Completed 500 Internal Server Error in 8ms (Allocations: 2667)
+
+
+  
+ActionView::Template::Error (The asset "application.bootsrap.scss.css" is not present in the asset pipeline.
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application.bootsrap.scss", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2023-05-22 18:29:52 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 2447)
+Completed 500 Internal Server Error in 8ms (Allocations: 2667)
+
+
+  
+ActionView::Template::Error (The asset "application.bootsrap.scss.css" is not present in the asset pipeline.
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application.bootsrap.scss", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/views/layouts/application.html.erb:9
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 18:29:53 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/" for ::1 at 2023-05-22 18:29:53 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 2449)
+Completed 500 Internal Server Error in 2ms (Allocations: 2669)
+
+
+  
+ActionView::Template::Error (The asset "application.bootsrap.scss.css" is not present in the asset pipeline.
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application.bootsrap.scss", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/views/layouts/application.html.erb:9
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 18:29:55 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/" for ::1 at 2023-05-22 18:29:58 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 112)
+  Rendered layout layouts/application.html.erb (Duration: 33.2ms | Allocations: 14618)
+Completed 200 OK in 38ms (Views: 36.3ms | Allocations: 15501)
+
+
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 18:30:00 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/" for ::1 at 2023-05-22 18:30:15 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 112)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 2802)
+Completed 500 Internal Server Error in 15ms (Allocations: 3661)
+
+
+  
+ActionView::Template::Error (The asset "application.bootsrap.css" is not present in the asset pipeline.
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application.bootsrap", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2023-05-22 18:30:16 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | Allocations: 2448)
+Completed 500 Internal Server Error in 2ms (Allocations: 2669)
+
+
+  
+ActionView::Template::Error (The asset "application.bootsrap.css" is not present in the asset pipeline.
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application.bootsrap", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2023-05-22 18:30:16 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 2463)
+Completed 500 Internal Server Error in 2ms (Allocations: 2683)
+
+
+  
+ActionView::Template::Error (The asset "application.bootsrap.css" is not present in the asset pipeline.
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application.bootsrap", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2023-05-22 18:30:16 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 2463)
+Completed 500 Internal Server Error in 2ms (Allocations: 2683)
+
+
+  
+ActionView::Template::Error (The asset "application.bootsrap.css" is not present in the asset pipeline.
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application.bootsrap", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2023-05-22 18:30:16 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | Allocations: 2463)
+Completed 500 Internal Server Error in 2ms (Allocations: 2683)
+
+
+  
+ActionView::Template::Error (The asset "application.bootsrap.css" is not present in the asset pipeline.
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application.bootsrap", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/views/layouts/application.html.erb:9
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 18:30:17 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 18:30:18 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/" for ::1 at 2023-05-22 18:30:29 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 112)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | Allocations: 2005)
+Completed 200 OK in 3ms (Views: 2.6ms | Allocations: 2888)
+
+
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 18:30:31 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 18:31:01 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/" for ::1 at 2023-05-22 18:33:43 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 112)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 2019)
+Completed 200 OK in 3ms (Views: 2.6ms | Allocations: 2902)
+
+
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 18:33:45 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/users" for ::1 at 2023-05-22 18:33:52 +0530
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:6
+  Rendered users/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1125)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 2638)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.2ms | Allocations: 3393)
+
+
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 18:33:54 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/users/new" for ::1 at 2023-05-22 18:33:54 +0530
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 0.9ms | Allocations: 832)
+  Rendered users/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1128)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 2626)
+Completed 200 OK in 3ms (Views: 3.1ms | ActiveRecord: 0.0ms | Allocations: 2939)
+
+
+Started GET "/users" for ::1 at 2023-05-22 18:33:56 +0530
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 18:33:56 +0530
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:6
+  Rendered users/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 749)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | Allocations: 2332)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 2616)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/users/new" for ::1 at 2023-05-22 18:33:57 +0530
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.3ms | Allocations: 528)
+  Rendered users/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 608)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 2110)
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.0ms | Allocations: 2370)
+
+
+Started POST "/users" for ::1 at 2023-05-22 18:33:57 +0530
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "commit"=>"Create User"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:27:in `block in create'
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "address", "dob", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", nil], ["email", nil], ["address", nil], ["dob", nil], ["created_at", "2023-05-22 13:03:57.622964"], ["updated_at", "2023-05-22 13:03:57.622964"]]
+  ↳ app/controllers/users_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:27:in `block in create'
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 1.0ms | Allocations: 3905)
+
+
+  
+ActiveRecord::NotNullViolation (SQLite3::ConstraintException: NOT NULL constraint failed: users.name):
+  
+app/controllers/users_controller.rb:27:in `block in create'
+app/controllers/users_controller.rb:26:in `create'
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 18:33:57 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 18:33:59 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/users/new" for ::1 at 2023-05-22 18:34:37 +0530
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 4.7ms | Allocations: 830)
+  Rendered users/new.html.erb within layouts/application (Duration: 7.0ms | Allocations: 1126)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 2890)
+Completed 200 OK in 16ms (Views: 13.8ms | ActiveRecord: 0.0ms | Allocations: 3789)
+
+
+Started GET "/users/new" for ::1 at 2023-05-22 18:34:38 +0530
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 0.6ms | Allocations: 539)
+  Rendered users/new.html.erb within layouts/application (Duration: 0.8ms | Allocations: 620)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 2110)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 2371)
+
+
+Started GET "/users/new" for ::1 at 2023-05-22 18:34:38 +0530
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 0.6ms | Allocations: 533)
+  Rendered users/new.html.erb within layouts/application (Duration: 0.8ms | Allocations: 613)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | Allocations: 2103)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms | Allocations: 2363)
+
+
+Started GET "/users/new" for ::1 at 2023-05-22 18:34:38 +0530
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.3ms | Allocations: 535)
+  Rendered users/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 615)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 2105)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 2365)
+
+
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 18:34:39 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 18:34:40 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/" for ::1 at 2023-05-22 18:34:42 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 112)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 1784)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 2496)
+
+
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 18:34:44 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/" for ::1 at 2023-05-22 18:34:49 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 112)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | Allocations: 2033)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 2916)
+
+
+Started GET "/" for ::1 at 2023-05-22 18:34:50 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 1667)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 1912)
+
+
+Started GET "/" for ::1 at 2023-05-22 18:34:50 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 1671)
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 1915)
+
+
+Started GET "/" for ::1 at 2023-05-22 18:34:50 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 1671)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 1916)
+
+
+Started GET "/" for ::1 at 2023-05-22 18:34:50 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 1667)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 1911)
+
+
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 18:34:52 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
+Started GET "/vite-dev/dev-sw.js?dev-sw" for ::1 at 2023-05-22 18:35:22 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/vite-dev/dev-sw.js"):
+  
